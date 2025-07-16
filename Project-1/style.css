@@ -1,0 +1,53 @@
+h1 {
+    font-style: italic;
+    color: black;
+    text-align:justify;
+    margin: 17px;
+}
+
+h2 {
+    background-color: black;
+    color: white !important;
+    text-align:justify;
+}
+
+h3 {
+    color: wheat;
+ }
+
+p {
+    color: white;
+    font-size: large;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+body {
+    background-color: white;
+}
+
+button {
+    all: unset;
+    background-color: white;
+    color: black;
+    margin:25px;
+    padding: 16px; ;
+    text-align:justify;
+}
+
+.card{
+    height: 350px;
+    width: 700px;
+    background-color: black;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+}
+
+*,
+*::before,
+*::after { 
+box-sizing: border-box;
+}
