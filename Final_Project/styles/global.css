@@ -1,0 +1,114 @@
+:root {
+    /* fonts */
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: "Source Code Pro", monospace ;
+
+    /* colors */
+    --clr-dark: oklch(13% 0.028 261.692);
+
+    --color-slate50 : oklch(98.4% 0.003 247.858); /* slate50*/
+    --color-slate100: oklch(96.8% 0.007 247.896); /* slate100*/
+    --clr-light: oklch(92.9% 0.013 255.508);  /* slate200*/
+    --clr-slate300: oklch(86.9% 0.022 252.894); /* slate300*/
+    --clr-text: oklch(70.4% 0.04 256.788);    /* slate400*/
+    --color-slate800: oklch(27.9% 0.041 260.031); /* slate800*/
+    --clr-bg : #0a101f;
+
+    --color-muted: #6b7c94;
+
+    /* shadow */
+    --shadow-xl: 0 19px 38px rgba(15, 23, 42, 0.3), 0, 15px, 12px rgba(15, 23, 42, 0.22);
+
+    /* sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.75rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+body {
+     font-family: var(--font-primary);
+     background-color: var(--clr-dark);
+     color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background-color: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.025em;
+}
+
+p {
+    color: var(--clr-text);
+}
+
+a {
+    color: var(--color-slate50);
+}
+
+strong {
+    color: var(--clr-light);
+    font-weight: 900;
+}
+
+button:focus-visible,
+a:focus-visible {
+    outline: solid var(--clr-light);
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-slate50);
+  outline: 1px solid var(--color-slate50);
+}
