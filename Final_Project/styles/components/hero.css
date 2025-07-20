@@ -42,7 +42,7 @@
         height: var(--size-10xl);
     }
 
-    .hero_title {
+    .hero__title {
         font-size: var(--size-4xl);
     }
 

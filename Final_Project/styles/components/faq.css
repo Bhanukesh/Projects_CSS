@@ -5,7 +5,7 @@
 
 .faq__description {
     font-family: var(--font-secondary);
-    font-size: var(--size-sm);
+    font-size: var(--size-xs);
     color: var(--clr-muted);
     margin: 1rem 0;
 }
@@ -16,6 +16,7 @@
     padding: 2rem;
     border-radius: 6px;
     margin-top: 1rem;
+    height: 100%;
 }
 
 .faq__box--0margin {
@@ -24,13 +25,19 @@
 
 .faq__box-title {
     font-size: var(--size-sm);
-    margin-bottom: 0.25em;
+    margin-bottom: 1rem;
 }
 
 .faq__box-description {
     font-family: var(--font-secondary);
     font-size: var(--size-xs);
+    color: var(--clr-muted);
 }
+
+/* .faq__box-description {
+    font-family: var(--font-secondary);
+    font-size: var(--size-xs);
+} */
 
 /* xs  */
 @media (min-width: 475px) {
@@ -57,7 +64,7 @@
 /* md  */
 @media (min-width: 768px) {
     .faq__description {
-        max-width: 70ch;
+        max-width: 60ch;
     }
 }
 
@@ -69,8 +76,8 @@
 
     .faq__container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr  ));
-        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 1.5rem;
     }
 } 
  

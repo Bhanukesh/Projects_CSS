@@ -31,6 +31,7 @@
 .testimonial__comment {
     font-size: var(--size-xs);
     font-family: var(--font-secondary);
+    color: var(--clr-text);
 }
 
 .testimonial__name {
@@ -89,7 +90,7 @@
 /* xl  */
 @media (min-width: 1280px) {
     .testimonial__title {
-        font: var(--size-5xl);
+        font-size: var(--size-5xl);
     }
 
     .testimonial__description {
